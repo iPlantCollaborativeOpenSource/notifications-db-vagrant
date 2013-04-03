@@ -1,0 +1,5 @@
+CREATE USER de WITH PASSWORD 'de';
+CREATE DATABASE notifications;
+GRANT ALL PRIVILEGES ON DATABASE notifications to de;
+ALTER DATABASE notifications OWNER TO de;
+ALTER SCHEMA public OWNER TO de;
